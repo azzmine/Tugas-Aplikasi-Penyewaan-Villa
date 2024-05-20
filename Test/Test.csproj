@@ -1,0 +1,1182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C3F2C91-83CB-4D0D-B596-CFB19EF84179}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bali.Designer.cs">
+      <DependentUpon>Bali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bangka_Belitung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bangka_Belitung.Designer.cs">
+      <DependentUpon>Bangka_Belitung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banten.Designer.cs">
+      <DependentUpon>Banten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bengkulu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bengkulu.Designer.cs">
+      <DependentUpon>Bengkulu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DKI_Jakarta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKI_Jakarta.Designer.cs">
+      <DependentUpon>DKI_Jakarta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gorontalo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gorontalo.Designer.cs">
+      <DependentUpon>Gorontalo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradientPanel.cs" />
+    <Compile Include="Jambi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jambi.Designer.cs">
+      <DependentUpon>Jambi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jawa_Barat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jawa_Barat.Designer.cs">
+      <DependentUpon>Jawa_Barat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jawa_Tengah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jawa_Tengah.Designer.cs">
+      <DependentUpon>Jawa_Tengah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jawa_Timur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jawa_Timur.Designer.cs">
+      <DependentUpon>Jawa_Timur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kalimantan_Barat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalimantan_Barat.Designer.cs">
+      <DependentUpon>Kalimantan_Barat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kalimantan_Selatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalimantan_Selatan.Designer.cs">
+      <DependentUpon>Kalimantan_Selatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kalimantan_Tengah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalimantan_Tengah.Designer.cs">
+      <DependentUpon>Kalimantan_Tengah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kalimantan_Timur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalimantan_Timur.Designer.cs">
+      <DependentUpon>Kalimantan_Timur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kalimantan_Utara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalimantan_Utara.Designer.cs">
+      <DependentUpon>Kalimantan_Utara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kepulauan_Riau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kepulauan_Riau.Designer.cs">
+      <DependentUpon>Kepulauan_Riau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lampung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lampung.Designer.cs">
+      <DependentUpon>Lampung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maluku.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maluku.Designer.cs">
+      <DependentUpon>Maluku.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maluku_Utara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maluku_Utara.Designer.cs">
+      <DependentUpon>Maluku_Utara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Nusa_Tenggara_Barat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nusa_Tenggara_Barat.Designer.cs">
+      <DependentUpon>Nusa_Tenggara_Barat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nusa_Tenggara_Timur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nusa_Tenggara_Timur.Designer.cs">
+      <DependentUpon>Nusa_Tenggara_Timur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="N_Aceh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="N_Aceh.Designer.cs">
+      <DependentUpon>N_Aceh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="p.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="p.Designer.cs">
+      <DependentUpon>p.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Papua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Papua.Designer.cs">
+      <DependentUpon>Papua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Papua_Barat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Papua_Barat.Designer.cs">
+      <DependentUpon>Papua_Barat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Papua_Barat_Daya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Papua_Barat_Daya.Designer.cs">
+      <DependentUpon>Papua_Barat_Daya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Papua_Pegunungan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Papua_Pegunungan.Designer.cs">
+      <DependentUpon>Papua_Pegunungan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Papua_Selatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Papua_Selatan.Designer.cs">
+      <DependentUpon>Papua_Selatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Papua_Tengah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Papua_Tengah.Designer.cs">
+      <DependentUpon>Papua_Tengah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pemesanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pemesanan.Designer.cs">
+      <DependentUpon>Pemesanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penginapan.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Thy shalt be tourment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Thy shalt be tourment.Designer.cs">
+      <DependentUpon>Thy shalt be tourment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Provinsi.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Riau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Riau.Designer.cs">
+      <DependentUpon>Riau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Selesai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Selesai.Designer.cs">
+      <DependentUpon>Selesai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sulawesi_Barat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sulawesi_Barat.Designer.cs">
+      <DependentUpon>Sulawesi_Barat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sulawesi_Selatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sulawesi_Selatan.Designer.cs">
+      <DependentUpon>Sulawesi_Selatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sulawesi_Tengah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sulawesi_Tengah.Designer.cs">
+      <DependentUpon>Sulawesi_Tengah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sulawesi_Tenggara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sulawesi_Tenggara.Designer.cs">
+      <DependentUpon>Sulawesi_Tenggara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sulawesi_Utara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sulawesi_Utara.Designer.cs">
+      <DependentUpon>Sulawesi_Utara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sumatera_Barat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sumatera_Barat.Designer.cs">
+      <DependentUpon>Sumatera_Barat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sumatera_Selatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sumatera_Selatan.Designer.cs">
+      <DependentUpon>Sumatera_Selatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sumatera_Utara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sumatera_Utara.Designer.cs">
+      <DependentUpon>Sumatera_Utara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Yogyakarta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yogyakarta.Designer.cs">
+      <DependentUpon>Yogyakarta.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bali.resx">
+      <DependentUpon>Bali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bangka_Belitung.resx">
+      <DependentUpon>Bangka_Belitung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banten.resx">
+      <DependentUpon>Banten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bengkulu.resx">
+      <DependentUpon>Bengkulu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKI_Jakarta.resx">
+      <DependentUpon>DKI_Jakarta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gorontalo.resx">
+      <DependentUpon>Gorontalo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jambi.resx">
+      <DependentUpon>Jambi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jawa_Barat.resx">
+      <DependentUpon>Jawa_Barat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jawa_Tengah.resx">
+      <DependentUpon>Jawa_Tengah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jawa_Timur.resx">
+      <DependentUpon>Jawa_Timur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalimantan_Barat.resx">
+      <DependentUpon>Kalimantan_Barat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalimantan_Selatan.resx">
+      <DependentUpon>Kalimantan_Selatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalimantan_Tengah.resx">
+      <DependentUpon>Kalimantan_Tengah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalimantan_Timur.resx">
+      <DependentUpon>Kalimantan_Timur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalimantan_Utara.resx">
+      <DependentUpon>Kalimantan_Utara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kepulauan_Riau.resx">
+      <DependentUpon>Kepulauan_Riau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lampung.resx">
+      <DependentUpon>Lampung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maluku.resx">
+      <DependentUpon>Maluku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maluku_Utara.resx">
+      <DependentUpon>Maluku_Utara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nusa_Tenggara_Barat.resx">
+      <DependentUpon>Nusa_Tenggara_Barat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nusa_Tenggara_Timur.resx">
+      <DependentUpon>Nusa_Tenggara_Timur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="N_Aceh.resx">
+      <DependentUpon>N_Aceh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="p.resx">
+      <DependentUpon>p.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Papua.resx">
+      <DependentUpon>Papua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Papua_Barat.resx">
+      <DependentUpon>Papua_Barat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Papua_Barat_Daya.resx">
+      <DependentUpon>Papua_Barat_Daya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Papua_Pegunungan.resx">
+      <DependentUpon>Papua_Pegunungan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Papua_Selatan.resx">
+      <DependentUpon>Papua_Selatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Papua_Tengah.resx">
+      <DependentUpon>Papua_Tengah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pemesanan.resx">
+      <DependentUpon>Pemesanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Thy shalt be tourment.resx">
+      <DependentUpon>Thy shalt be tourment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Riau.resx">
+      <DependentUpon>Riau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Selesai.resx">
+      <DependentUpon>Selesai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sulawesi_Barat.resx">
+      <DependentUpon>Sulawesi_Barat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sulawesi_Selatan.resx">
+      <DependentUpon>Sulawesi_Selatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sulawesi_Tengah.resx">
+      <DependentUpon>Sulawesi_Tengah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sulawesi_Tenggara.resx">
+      <DependentUpon>Sulawesi_Tenggara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sulawesi_Utara.resx">
+      <DependentUpon>Sulawesi_Utara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sumatera_Barat.resx">
+      <DependentUpon>Sumatera_Barat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sumatera_Selatan.resx">
+      <DependentUpon>Sumatera_Selatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sumatera_Utara.resx">
+      <DependentUpon>Sumatera_Utara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yogyakarta.resx">
+      <DependentUpon>Yogyakarta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Customer.datasource" />
+    <None Include="Properties\DataSources\Penginapan.datasource" />
+    <None Include="Properties\DataSources\Provinsi.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b-saya-villa-ubud.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\royal-kamuela-ubud.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main-pool.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-sankara-suite-villas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.aceh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2. Aceh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.aceh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tlpn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pekerjaan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\identitas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fasilitas_mahavilla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahavilla5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahavilla4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahavilla3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahavilla2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahavilla21.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahavilla1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\villa1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\villa2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\villa3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\villa4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acehvilla2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Greenhill Sibolangit Chaster.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Green Hill Sibolangit OniOmo 4BR.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Berastagi Highland Blok 8 L.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Paradise.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lekjon 2 Cottage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Berastagi Highland 8KK.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Berastagi Highland 7 LL.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Bukit Indah 4BR Berastagi.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lotus Villa Palembang.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Yogi Surf 3 Canggu.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mengskuy Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alaina Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rumah Pakankamih.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Rumah Kayu Lubuk Minturun.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Mandam Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Copenhagen Bukittinggi.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dvio Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lagoi Bay Villas.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lagoi Bay Villas1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pantai Indah Lagoi Bintan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\One of A Kind Resort %40 Trikora Beach - Bintan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pulau Joyo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de Bintan Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smiling Hill.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4BR Private Villa with Pool in the Heart of city.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nongsa Village Peaceful Villa in private beach Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Danka%40tudor residence.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calmness Villa Syariah.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Rahmi Syar%27i 1 %283 Bedrooms%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rumah Kito Resort Hotel Jambi by Waringin Hospitality.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buluran Guest House Syariah.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2BR City Center Holiday Home.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa 5 BR utk Family atau Grup di Villa Citra, Lampung.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bandar Lampung Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Indonesia entire home for tourist.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shazia House - Modern and Cozy Home with 3 Bedrooms and Private Pool.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shazia House - Modern and Cozy Home with 3 Bedrooms and Private Pool1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pelangi Lake Resort &amp; Hotel Belitung.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Belitung Holiday Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Istana Pool Villas &amp; Spa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Istana Pool Villas &amp; Spa1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arumdalu Private Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden Hawaii Villa Singkawang.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Bukit Mas.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Bukit Mas1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Sekawan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El Sierra Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derawan Fisheries Cottage.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maratua Ranu Cottage.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arasatu Villas &amp; Sanctuary.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grand Jatra Hotel Balikpapan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\San Villa Syariah.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mountain Meratus Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Bunga%27s Boutique Hotel.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VILLA IN GILI TRAWANGANG P0053.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rimba Orangutan Eco Lodge.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Garuda.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Bougenville Sei Gohong.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bukit Raya Guesthouse and Tours.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rungan Sari Meeting Center &amp; Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maratua Paradise Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Padmadewi Anyer Villa &amp; Hotel.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Stefan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Archipelago Carita.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Stephanie.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Nine.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Queen Sawarna.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\great.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gvilla.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FM7 Resort Hotel Airport Jakarta.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minima Residence.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coral House - Near Univ Indonesia Setu Babakan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Bedroom Home in South Jakarta Nuansa Swadarma Residence.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kemang Utara Creative Villas.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cozy House %40 Wisteria in Jakarta Garden City.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rumah Liburan Seafront Ancol.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aleyra Hotel and Villa%27s Garut.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desa Alamanis Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cahaya Villa Hotel.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vila Istana Bunga.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kastuba Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EdensoR Hills Villa, Resort &amp; Cafe.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Osmond Villa &amp; Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Borobudur Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rumah Boedi Private Residence Borobudur.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kura Kura Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edelweiss Hideaway.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bayfront Villa Jepara.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\De Villa Cetho.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Parikesit.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Batu Villas.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ijen Resort and Villas.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jambuluwuk Batu Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kampoeng Joglo Ijen.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VillaGuesthouse Rumah Kita.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Djoglo Luxury Bungalow.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Azcarya Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa &amp; Family Hotel Gradia.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Kendi.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Pondok Terra.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Rosseno.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Sambal.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duta Garden Hotel Boutique Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Habitat %40 Hyarta.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aramanis Villas.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Sankara Suite &amp; Villas By Pramana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Sankara Suite &amp; Villas By Pramana.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Samaya Ubud Bali.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uma Sapna.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purana Boutique Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Samsara Ubud.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Sipo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ayana Villas Bali.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Royal Kamuela Villas &amp; Suites.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aksari Villa Seminyak.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prasana by Arjani Resorts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kayumanis Nusa Dua Private Villa &amp; Spa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Domanik.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Selini on the Hill Villas &amp; Spa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manta Manta Guesthouse.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AYANA Komodo Resort, Waecicu Beach.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalandara Resort Lombok.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Oberoi Beach Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pondok Santi Estate Gili Trawangan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Holiday Resort Lombok.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Domanikk.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pulo Cinta Ecoresort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resort Pulau Saronde.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OILE Dive Lodge.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Century Beach Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mamasa Cottages.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botanica Nature Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sutan Raja Villa Palu.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sanctum Una Una Eco Dive Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pristine Paradise Una Una Dive Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harmony Bay Resort and Dive Center.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black Marlin Dive Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bunaken Island Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kasawari Lembeh Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minahasa Prima Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mercure Manado Tateli Beach Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nirwana Buton Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Nadila.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Adios.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kopap Villa 1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Selayar Dive Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luta Resort Toraja.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amatoa Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Kampoeng Anda Bira.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Ma%27Rasai.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mamatua N Saleo Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agusta Eco Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raja Ampat Meridian Adventure Dive Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kasuari Valley Beach Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OssA de Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Anneby.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Mega.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Tosari Indah.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\durasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waktu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\villa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Baliem Valley Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mayo Privat Resort Holtekamp.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RAFAEL INN TIMIKA.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Swiss-Belinn Timika.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hamueco Raja Ampat Dive Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D Coral Paradise Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Korpak Villa Resort Raja Ampat.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waiwo Dive Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p bg b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minima Residence2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khaila Villa, Kai Villa Escotel.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glamping resort.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cape Paperu Resort &amp; Spa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cape Paperu Resort &amp; Spa1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ora Sunrise View Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bellarizki Resort.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bellarizki Resort2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sabua Gaba.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dodola Island Resort.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villa Thania.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xiao Lake Villa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zayn Villa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suatu villa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANDATA VILLA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Misool Eco Resort.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kasuari Valley Beach Resort Sorong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

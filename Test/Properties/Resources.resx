@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Resort Pulau Saronde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Resort Pulau Saronde.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waktu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waktu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="De Villa Cetho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\De Villa Cetho.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Rahmi Syar'i 1 (3 Bedrooms)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Rahmi Syar'i 1 (3 Bedrooms).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D Coral Paradise Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D Coral Paradise Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VillaGuesthouse Rumah Kita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VillaGuesthouse Rumah Kita.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="villa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\villa2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pekerjaan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pekerjaan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Yogi Surf 3 Canggu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Yogi Surf 3 Canggu.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Istana Pool Villas &amp; Spa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Istana Pool Villas &amp; Spa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Azcarya Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Azcarya Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VILLA IN GILI TRAWANGANG P0053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VILLA IN GILI TRAWANGANG P0053.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Samsara Ubud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Samsara Ubud.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Danka@tudor residence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Danka@tudor residence.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Bougenville Sei Gohong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Bougenville Sei Gohong.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Holiday Resort Lombok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Holiday Resort Lombok.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4BR Private Villa with Pool in the Heart of city" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4BR Private Villa with Pool in the Heart of city.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Garuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Garuda.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luta Resort Toraja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luta Resort Toraja.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black Marlin Dive Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black Marlin Dive Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cozy House @ Wisteria in Jakarta Garden City" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cozy House @ Wisteria in Jakarta Garden City.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Korpak Villa Resort Raja Ampat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Korpak Villa Resort Raja Ampat.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nongsa Village Peaceful Villa in private beach Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nongsa Village Peaceful Villa in private beach Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suatu villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Suatu villa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa 5 BR utk Family atau Grup di Villa Citra, Lampung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa 5 BR utk Family atau Grup di Villa Citra, Lampung.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasuari Valley Beach Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasuari Valley Beach Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Bunga's Boutique Hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Bunga's Boutique Hotel.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bandar Lampung Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bandar Lampung Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rumah Pakankamih" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rumah Pakankamih.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Istana Pool Villas &amp; Spa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Istana Pool Villas &amp; Spa1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gvilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gvilla.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dodola Island Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dodola Island Resort.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Duta Garden Hotel Boutique Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Duta Garden Hotel Boutique Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Berastagi Highland 8KK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Berastagi Highland 8KK.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Nadila" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Nadila.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kura Kura Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kura Kura Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Rosseno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Rosseno.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AYANA Komodo Resort, Waecicu Beach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AYANA Komodo Resort, Waecicu Beach.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bellarizki Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bellarizki Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Indonesia entire home for tourist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Indonesia entire home for tourist.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b-saya-villa-ubud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b-saya-villa-ubud.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ANDATA VILLA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ANDATA VILLA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Mandam Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Mandam Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="villa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\villa1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Copenhagen Bukittinggi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Copenhagen Bukittinggi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Tosari Indah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Tosari Indah.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\r.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mengskuy Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mengskuy Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hamueco Raja Ampat Dive Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hamueco Raja Ampat Dive Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grand Jatra Hotel Balikpapan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grand Jatra Hotel Balikpapan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Djoglo Luxury Bungalow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Djoglo Luxury Bungalow.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Sankara Suite &amp; Villas By Pramana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Sankara Suite &amp; Villas By Pramana.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alaina Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alaina Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Green Hill Sibolangit OniOmo 4BR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Green Hill Sibolangit OniOmo 4BR.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minahasa Prima Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minahasa Prima Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Berastagi Highland 7 LL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Berastagi Highland 7 LL.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Queen Sawarna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Queen Sawarna.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pulo Cinta Ecoresort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pulo Cinta Ecoresort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mamasa Cottages" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mamasa Cottages.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Misool Eco Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Misool Eco Resort.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uma Sapna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uma Sapna.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="great" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\great.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dvio Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dvio Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p bg b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p bg b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Smiling Hill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Smiling Hill.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rumah Boedi Private Residence Borobudur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rumah Boedi Private Residence Borobudur.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Stefan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Stefan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cape Paperu Resort &amp; Spa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cape Paperu Resort &amp; Spa1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ayana Villas Bali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ayana Villas Bali.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2. Aceh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2. Aceh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maratua Ranu Cottage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maratua Ranu Cottage.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pulau Joyo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pulau Joyo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Bukit Mas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Bukit Mas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lekjon 2 Cottage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lekjon 2 Cottage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lagoi Bay Villas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lagoi Bay Villas1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pantai Indah Lagoi Bintan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pantai Indah Lagoi Bintan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minima Residence2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minima Residence2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Pondok Terra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Pondok Terra.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cahaya Villa Hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cahaya Villa Hotel.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nirwana Buton Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nirwana Buton Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Thania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Thania.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pristine Paradise Una Una Dive Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pristine Paradise Una Una Dive Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Adios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Adios.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sutan Raja Villa Palu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sutan Raja Villa Palu.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Rumah Kayu Lubuk Minturun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Rumah Kayu Lubuk Minturun.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nama.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kayumanis Nusa Dua Private Villa &amp; Spa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kayumanis Nusa Dua Private Villa &amp; Spa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agusta Eco Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agusta Eco Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="identitas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\identitas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rimba Orangutan Eco Lodge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rimba Orangutan Eco Lodge.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa &amp; Family Hotel Gradia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa &amp; Family Hotel Gradia.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Raja Ampat Meridian Adventure Dive Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raja Ampat Meridian Adventure Dive Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kalandara Resort Lombok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kalandara Resort Lombok.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Belitung Holiday Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Belitung Holiday Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jambuluwuk Batu Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jambuluwuk Batu Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Stephanie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Stephanie.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Derawan Fisheries Cottage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Derawan Fisheries Cottage.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Domanikk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Domanikk.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zayn Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zayn Villa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Sipo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Sipo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="San Villa Syariah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\San Villa Syariah.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bellarizki Resort2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bellarizki Resort2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Harmony Bay Resort and Dive Center" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Harmony Bay Resort and Dive Center.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Kamuela Villas &amp; Suites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Royal Kamuela Villas &amp; Suites.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ora Sunrise View Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ora Sunrise View Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lagoi Bay Villas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lagoi Bay Villas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OILE Dive Lodge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OILE Dive Lodge.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Habitat @ Hyarta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Habitat @ Hyarta.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2BR City Center Holiday Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2BR City Center Holiday Home.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minima Residence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minima Residence.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Archipelago Carita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Archipelago Carita.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Bukit Indah 4BR Berastagi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Bukit Indah 4BR Berastagi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fasilitas_mahavilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fasilitas_mahavilla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Anneby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Anneby.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Sambal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Sambal.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shazia House - Modern and Cozy Home with 3 Bedrooms and Private Pool1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shazia House - Modern and Cozy Home with 3 Bedrooms and Private Pool1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Purana Boutique Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Purana Boutique Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kastuba Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kastuba Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arumdalu Private Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arumdalu Private Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kampoeng Joglo Ijen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kampoeng Joglo Ijen.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rumah Liburan Seafront Ancol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rumah Liburan Seafront Ancol.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Osmond Villa &amp; Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Osmond Villa &amp; Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="de Bintan Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\de Bintan Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\villa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Greenhill Sibolangit Chaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Greenhill Sibolangit Chaster.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bayfront Villa Jepara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bayfront Villa Jepara.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Century Beach Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Century Beach Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vivi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vivi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Batu Villas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Batu Villas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vila Istana Bunga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vila Istana Bunga.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cape Paperu Resort &amp; Spa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cape Paperu Resort &amp; Spa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mamatua N Saleo Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mamatua N Saleo Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla21.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amatoa Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amatoa Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prasana by Arjani Resorts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prasana by Arjani Resorts.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tlpn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tlpn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rungan Sari Meeting Center &amp; Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rungan Sari Meeting Center &amp; Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Mega.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xiao Lake Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xiao Lake Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Paradise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Paradise.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="villa4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\villa4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Kendi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Kendi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sanctum Una Una Eco Dive Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sanctum Una Una Eco Dive Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ijen Resort and Villas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ijen Resort and Villas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Berastagi Highland Blok 8 L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Berastagi Highland Blok 8 L.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botanica Nature Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botanica Nature Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Sankara Suite &amp; Villas By Pramana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Sankara Suite &amp; Villas By Pramana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bunaken Island Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bunaken Island Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sabua Gaba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sabua Gaba.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kemang Utara Creative Villas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kemang Utara Creative Villas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Borobudur Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Borobudur Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FM7 Resort Hotel Airport Jakarta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FM7 Resort Hotel Airport Jakarta.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Selini on the Hill Villas &amp; Spa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Selini on the Hill Villas &amp; Spa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdensoR Hills Villa, Resort &amp; Cafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EdensoR Hills Villa, Resort &amp; Cafe.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Ma'Rasai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Ma'Rasai.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buluran Guest House Syariah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buluran Guest House Syariah.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Samaya Ubud Bali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Samaya Ubud Bali.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coral House - Near Univ Indonesia Setu Babakan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coral House - Near Univ Indonesia Setu Babakan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pondok Santi Estate Gili Trawangan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pondok Santi Estate Gili Trawangan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Baliem Valley Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Baliem Valley Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rumah Kito Resort Hotel Jambi by Waringin Hospitality" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rumah Kito Resort Hotel Jambi by Waringin Hospitality.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAFAEL INN TIMIKA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RAFAEL INN TIMIKA.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="royal-kamuela-ubud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\royal-kamuela-ubud.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="One of A Kind Resort @ Trikora Beach - Bintan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One of A Kind Resort @ Trikora Beach - Bintan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lotus Villa Palembang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lotus Villa Palembang.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Bukit Mas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Bukit Mas1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Kampoeng Anda Bira" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Kampoeng Anda Bira.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pelangi Lake Resort &amp; Hotel Belitung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pelangi Lake Resort &amp; Hotel Belitung.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="El Sierra Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\El Sierra Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bukit Raya Guesthouse and Tours" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bukit Raya Guesthouse and Tours.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edelweiss Hideaway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edelweiss Hideaway.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="villa3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\villa3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahavilla31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahavilla3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aksari Villa Seminyak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aksari Villa Seminyak.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Swiss-Belinn Timika" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Swiss-Belinn Timika.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mountain Meratus Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mountain Meratus Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glamping resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glamping resort.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OssA de Villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OssA de Villa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasawari Lembeh Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasawari Lembeh Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manta Manta Guesthouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manta Manta Guesthouse.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Sekawan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Sekawan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="durasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\durasi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Domanik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Domanik.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Golden Hawaii Villa Singkawang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Golden Hawaii Villa Singkawang.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arasatu Villas &amp; Sanctuary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arasatu Villas &amp; Sanctuary.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3.aceh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.aceh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mercure Manado Tateli Beach Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mercure Manado Tateli Beach Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Padmadewi Anyer Villa &amp; Hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Padmadewi Anyer Villa &amp; Hotel.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aleyra Hotel and Villa's Garut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aleyra Hotel and Villa's Garut.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Waiwo Dive Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Waiwo Dive Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Oberoi Beach Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Oberoi Beach Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="the-sankara-suite-villas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\the-sankara-suite-villas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desa Alamanis Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desa Alamanis Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calmness Villa Syariah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calmness Villa Syariah.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mayo Privat Resort Holtekamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mayo Privat Resort Holtekamp.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Parikesit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Parikesit.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kopap Villa 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kopap Villa 1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-pool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-pool.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="acehvilla2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\acehvilla2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maratua Paradise Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maratua Paradise Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Khaila Villa, Kai Villa Escotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Khaila Villa, Kai Villa Escotel.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1.aceh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.aceh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="r2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\r2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa Nine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Villa Nine.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Selayar Dive Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Selayar Dive Resort.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shazia House - Modern and Cozy Home with 3 Bedrooms and Private Pool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shazia House - Modern and Cozy Home with 3 Bedrooms and Private Pool.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4-Bedroom Home in South Jakarta Nuansa Swadarma Residence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-Bedroom Home in South Jakarta Nuansa Swadarma Residence.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aramanis Villas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aramanis Villas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasuari Valley Beach Resort Sorong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasuari Valley Beach Resort Sorong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
